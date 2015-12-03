@@ -1,3 +1,26 @@
+.social {
+	float: right;
+	width: 140px;
+	margin-top: 10px;
+	z-index: 1;
+	margin-right: 25px;
+	position: relative;
+}
+
+.twitter {
+	width: 50px;
+	float: left;
+	padding: 0px 10px;
+	z-index: 1;
+}
+
+.facebook {
+	width: 50px;
+	float: left;
+	padding: 0px 10px;
+	z-index: 1;
+}
+
 .header {
 	/*background-image: url(https://images.unsplash.com/uploads/1411040661312f50ec8e2/ded9d54e?crop=entropy&dpr=2&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1550);*/
 	width: 100%;
@@ -10,6 +33,7 @@
 	margin-right: -40px;
 	/*position: absolute;*/
 	margin-top: -800px;
+	z-index: 0;
 }
 
 .content {
@@ -38,22 +62,4 @@ footer section {
   border: 1px solid darkgreen;
   display: inline-block;
   width: 250px
-}
-
-.twitter {
-	width: 50px;
-	float: left;
-	padding: 0px 10px;
-}
-
-.facebook {
-	width: 50px;
-	float: left;
-	padding: 0px 10px;
-}
-
-.social {
-	float: right;
-	width: 140px;
-	margin-top: -35px;	
 }
