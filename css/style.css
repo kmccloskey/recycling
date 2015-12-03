@@ -1,3 +1,30 @@
+.header {
+	/*background-image: url(https://images.unsplash.com/uploads/1411040661312f50ec8e2/ded9d54e?crop=entropy&dpr=2&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1550);*/
+	width: 100%;
+	margin: 0px;
+	/*position: absolute;*/
+}
+
+.imghead {
+	width: 100%;
+	margin-right: -40px;
+	/*position: absolute;*/
+	margin-top: -800px;
+}
+
+.content {
+	width: 900px;
+	border: solid 1px black;
+	height: 600px;
+	/*position: relative;*/
+	text-align: center;
+	margin: auto;
+}
+
+body {
+	margin: -8px;
+}
+
 footer {
   max-width: 1010px;
   min-width: 250px; 
@@ -12,3 +39,4 @@ footer section {
   display: inline-block;
   width: 250px
 }
+
