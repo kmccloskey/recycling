@@ -1,3 +1,82 @@
+.navbar {
+	float: right;
+	height: 100px;
+	border-left: solid white 3px;
+	position: relative;
+	z-index: 1;
+	margin-top: -300px;
+	vertical-align: auto;
+	margin-right: 50px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: #333;
+	vertical-align: auto;
+	background: rgba(0, 0, 0, 0.0);
+}
+
+li {
+	display: inline-block;
+	float: left;
+	padding-left: 15px;
+	vertical-align: auto;
+	font-size: 45px;
+	font-family: Arial;
+	padding-top: 15px;
+}
+
+.home {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 10px 15px;
+	text-decoration: none;
+	vertical-align: auto;
+}
+
+.home:hover {
+	background-color: black;
+}
+
+.about {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+.about:hover {
+	background-color: black;
+}
+
+.donate {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+.donate:hover {
+	background-color: black;
+}
+
+.why {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+.why:hover {
+	background-color: black;
+}
+
 .social {
 	float: right;
 	width: 140px;
