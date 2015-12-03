@@ -158,16 +158,11 @@ footer section {
 
 footer ul {
   list-style: none;
-  padding-left: 50px;
+  padding-left: 75px;
 }
 
 footer h3 {
-  padding: 3px;
-  width: 200px;
-}
-
-footer h3.center {
-  text-align:center;
+  padding-left: 75px;
 }
 
 footer p {
@@ -182,4 +177,8 @@ footer a {
 
 footer a:hover {
   color: #FFF;
+}
+
+#address-container p {
+  font-size: 14px;
 }
