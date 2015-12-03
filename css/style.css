@@ -1,6 +1,14 @@
 footer {
-  width: 100%
+  max-width: 1010px;
+  min-width: 250px; 
   height: 200px;
-  background-color: #444;
-  color: #EEE;
+  background-color: #FFF;
+  color: #000;
+  border: 1px solid darkgrey;
+}
+
+footer section {
+  border: 1px solid darkgreen;
+  display: inline-block;
+  width: 250px
 }
