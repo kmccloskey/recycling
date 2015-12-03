@@ -9,7 +9,7 @@
 	margin-right: 50px;
 }
 
-ul {
+.list {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
@@ -18,7 +18,7 @@ ul {
 	background: rgba(0, 0, 0, 0.0);
 }
 
-li {
+.header li {
 	display: inline-block;
 	float: left;
 	padding-left: 15px;
@@ -38,7 +38,7 @@ li {
 }
 
 .home:hover {
-	background-color: black;
+	text-decoration: underline;
 }
 
 .about {
@@ -50,7 +50,7 @@ li {
 }
 
 .about:hover {
-	background-color: black;
+	text-decoration: underline;
 }
 
 .donate {
@@ -62,7 +62,7 @@ li {
 }
 
 .donate:hover {
-	background-color: black;
+	text-decoration: underline;
 }
 
 .why {
@@ -74,7 +74,7 @@ li {
 }
 
 .why:hover {
-	background-color: black;
+	text-decoration: underline;
 }
 
 
