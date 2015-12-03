@@ -115,7 +115,7 @@
 	height: 300px;
 	margin: 0px;
 	background-image: url(https://images.unsplash.com/uploads/1411040661312f50ec8e2/ded9d54e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=9242bb2c1fcb8cb5eaa325b2652b12b2);
-
+	background-size: cover;
 	/*position: absolute;*/
 }
 
@@ -133,7 +133,7 @@
 
 .content {
 	width: 900px;
-	border: solid 1px black;
+	/*border: solid 1px black;*/
 	height: 600px;
 	/*position: relative;*/
 	text-align: center;
