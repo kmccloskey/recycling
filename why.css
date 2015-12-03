@@ -1,6 +1,14 @@
-.tree-hug {
-	float: right;
+* {
+	border: 2px solid red;
 }
-p {
-
+img {
+	float: left;
+	margin: 10px;
+}
+h2 {
+	text-align: center;
+	font-family: Georgia;
+}
+h3 {
+	margin: 10px;
 }
