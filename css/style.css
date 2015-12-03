@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-=======
+
+
 .navbar {
 	float: right;
 	height: 100px;
@@ -79,7 +79,7 @@ li {
 	background-color: black;
 }
 
->>>>>>> 19f2b68d43dade89a54c7677d12b345418418eb8
+
 .social {
 	float: right;
 	width: 140px;
@@ -155,7 +155,7 @@ footer section {
   display: inline-block;
   width: 250px;
   vertical-align: top;
-<<<<<<< HEAD
+
 }
 
 footer ul {
@@ -176,7 +176,7 @@ footer p {
   margin: 3px;
 }
 
-=======
+
 }
 
 footer ul {
@@ -197,7 +197,7 @@ footer p {
   margin: 3px;
 }
 
->>>>>>> 19f2b68d43dade89a54c7677d12b345418418eb8
+
 footer a {
   font-weight: bolder;
   text-decoration: none;
