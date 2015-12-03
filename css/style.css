@@ -86,6 +86,7 @@
 	text-decoration: underline;
 }
 
+
 .social {
 	float: right;
 	width: 140px;
@@ -164,6 +165,7 @@ footer section {
   display: inline-block;
   width: 250px;
   vertical-align: top;
+
 }
 
 footer ul {
@@ -183,6 +185,28 @@ footer h3.center {
 footer p {
   margin: 3px;
 }
+
+
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 50px;
+}
+
+footer h3 {
+  padding: 3px;
+  width: 200px;
+}
+
+footer h3.center {
+  text-align:center;
+}
+
+footer p {
+  margin: 3px;
+}
+
 
 footer a {
   font-weight: bolder;
