@@ -1,3 +1,6 @@
+/*--- footer styling ---*/
+@import url(footer.css);
+
 .navbar {
 	float: right;
 	height: 70px;
@@ -145,5 +148,4 @@ body {
 	margin: -8px;
 }
 
-/*--- footer styling ---*/
-@import "footer.css"
+

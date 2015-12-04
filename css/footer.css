@@ -44,6 +44,10 @@ footer a:hover {
   color: #FFF;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 #address-container p {
   font-size: 14px;
 }
