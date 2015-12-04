@@ -49,6 +49,9 @@ footer img {
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
   width: 50px;
+  /*---to avoid conflicts from why.css---*/
+  margin: 0px;
+  float: none;
 }
 
 footer img:hover {
@@ -71,7 +74,7 @@ footer img:hover {
 }
 
 section#connect ul {
-  padding: 0px 0px 0px 35px;
+  padding: 0px 0px 0px 38px;
   margin: 0;
 }
 
