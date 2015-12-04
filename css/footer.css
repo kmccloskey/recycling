@@ -79,3 +79,18 @@ section#connect li {
   width: 50px;
   display: inline-block;
 }
+
+section#sign-up div {
+  background: linear-gradient(#d3113a 20%, #bb0f34);
+  -webkit-background: linear-gradient(#d3113a 20%, #bb0f34);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 50px;;
+  height: 30px;
+  width: 150px;
+  padding: 10px 0px 0px 0px;
+  border-radius: 5px;
+  position: relative;
+  top: 20px;
+}  
