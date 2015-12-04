@@ -1,0 +1,99 @@
+/*--- footer styling ---*/
+
+footer {
+  font-family: Georgia, "Times New Roman", serif;
+  width: 100%;
+  min-width: 250px; 
+  background-color: #444;
+  color: #BBB;
+  padding: 20px;
+}
+
+footer > div {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+footer section {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 50px;
+}
+
+footer h3 {
+	margin-left: 0;
+  padding-left: 50px;
+  color: #EEE;
+}
+
+footer p {
+  margin: 3px;
+}
+
+footer a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #CCC;
+}
+
+footer a:hover {
+  color: #FFF;
+}
+
+footer img {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  width: 50px;
+  /*---to avoid conflicts from why.css---*/
+  margin: 0px;
+  float: none;
+}
+
+footer img:hover {
+  -webkit-filter: grayscale(0.1);
+  filter: grayscale(0.1);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#address-container {
+  float: left;
+  width: 250px;
+  padding-left: 50px;
+}
+
+#address-container p {
+  font-size: 14px;
+}
+
+section#connect ul {
+  padding: 0px 0px 0px 38px;
+  margin: 0;
+}
+
+section#connect li {
+  width: 50px;
+  display: inline-block;
+}
+
+section#sign-up div {
+  background: linear-gradient(#d3113a 20%, #bb0f34);
+  -webkit-background: linear-gradient(#d3113a 20%, #bb0f34);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 50px;;
+  height: 30px;
+  width: 150px;
+  padding: 10px 0px 0px 0px;
+  border-radius: 5px;
+  position: relative;
+  top: 20px;
+}  
