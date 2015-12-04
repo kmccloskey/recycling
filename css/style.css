@@ -1,7 +1,8 @@
+/*will position once font is decided*/
 .navbar {
 	float: right;
 	height: 70px;
-	border-left: solid white 3px;
+	/*border-left: solid white 3px;*/
 	position: relative;
 	z-index: 1;
 	padding-top: 0px;
@@ -16,6 +17,25 @@
 	margin-left: 80px;
 }
 
+.logo {
+	height: 100%;
+	margin-left: 3%;
+	margin-top: 2px;
+}
+/*will position after font is decided*/
+.slogan {
+	font-size: 40px;
+	display: inline;
+	position: relative;
+	z-index: 5;
+	float: right;
+	margin-right: 200px;
+	color: white;
+	font-family: Georgia;
+	width: 650px;
+	text-align: center;
+}
+
 .list {
 	list-style-type: none;
 	margin: 0px;
@@ -23,16 +43,18 @@
 	background-color: #333;
 	vertical-align: auto;
 	background: rgba(0, 0, 0, 0.0);
+	/*background-color: #444444;*/
 	/*position: relative;*/
 }
 
 .header li {
 	display: inline-block;
 	float: left;
-	padding-left: 15px;
+	padding-left: 0px;
 	vertical-align: auto;
 	font-size: 28px;
-	font-family: Arial;
+	/*font-family: Arial;*/
+	font-family: Lato, Helvetica, Arial, sans-serif; font-weight: 300;
 	padding-top: 7px;
 	/*position: relative;*/
 }
@@ -41,7 +63,7 @@
 	display: inline-block;
 	color: white;
 	text-align: center;
-	padding: 10px 15px;
+	padding: 10px 5px;
 	text-decoration: none;
 	vertical-align: auto;
 }
@@ -54,7 +76,7 @@
 	display: inline-block;
 	color: white;
 	text-align: center;
-	padding: 10px 15px;
+	padding: 10px 5px;
 	text-decoration: none;
 }
 
@@ -66,7 +88,7 @@
 	display: inline-block;
 	color: white;
 	text-align: center;
-	padding: 10px 15px;
+	padding: 10px 5px;
 	text-decoration: none;
 }
 
@@ -78,7 +100,7 @@
 	display: inline-block;
 	color: white;
 	text-align: center;
-	padding: 10px 15px;
+	padding: 10px 5px;
 	text-decoration: none;
 }
 
@@ -87,13 +109,13 @@
 }
 
 
-.social {
+/*.social {
 	float: right;
 	width: 140px;
 	margin-top: 10px;
 	z-index: 1;
 	margin-right: 25px;
-	position: relative;
+	p*/osition: relative;
 }
 
 .twitter {
