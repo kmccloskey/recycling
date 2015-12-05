@@ -1,6 +1,6 @@
+@import url(donate.css);
 /*--- footer styling ---*/
 @import url(footer.css);
-
 .navbar {
 	float: right;
 	height: 30px;
