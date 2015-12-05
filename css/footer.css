@@ -84,9 +84,8 @@ section#connect li {
 }
 
 section#sign-up div {
-  background: linear-gradient(#d3113a 20%, #bb0f34);
-  -webkit-background: linear-gradient(#d3113a 20%, #bb0f34);
-  font-family: Georgia, 'Times New Roman', serif;
+  background: linear-gradient(#d3113a 50%, #bb0f34);
+  -webkit-background: linear-gradient(#d3113a 50%, #bb0f34);
   font-weight: bolder;
   text-transform: uppercase;
   margin: 0px 0px 0px 50px;;
