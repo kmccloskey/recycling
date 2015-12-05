@@ -81,6 +81,15 @@ img.logo {
 
 /* --- end of header styling --- */
 
+/* --- content styling ---*/
+/* --- note that <div class="content"> is now just <article> ---*/
+
+article {
+	width: 900px;
+	height: 600px;
+	text-align: center;
+	margin: auto;
+}
 
 /*body {
 	margin: -8px;
