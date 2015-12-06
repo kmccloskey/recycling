@@ -129,6 +129,20 @@ h1.titleab {
 	font-weight: 200;
 }
 
+#infowhy {
+	font-size: 16px;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	padding-bottom: 10px;
+}
+
+.infoy {
+	font-size: 14px;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	padding-bottom: 10px;
+}
+
 /*body {
 	margin: -8px;
 }*/
