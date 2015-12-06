@@ -1,6 +1,3 @@
-/*--- footer styling ---*/
-@import url(footer.css);
-
 * {
 	margin: 0px;
 	padding: 0px;
@@ -8,12 +5,13 @@
 
 body {
 	min-width: 1000px;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* -- header styling -- */
 
 header {
-	background-image: url(https://images.unsplash.com/uploads/1411040661312f50ec8e2/ded9d54e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=9242bb2c1fcb8cb5eaa325b2652b12b2);
+	background-image: url(../images/greenleaf.jpg);
 	background-size: cover;
 	height: 500px;
 }
@@ -25,7 +23,6 @@ nav ul {
 
 nav li {
 	display: inline-block;
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 900;
 	font-size: 28px;
 	color: #FFF;
@@ -47,7 +44,6 @@ h1.slogan {
 }
 
 p#motto {
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 900;
 	font-size: 80px;
 	color: #CCC;
@@ -79,10 +75,7 @@ img.logo {
 	float: right;
 }
 
-/* --- end of header styling --- */
-
 /* --- content styling ---*/
-/* --- note that <div class="content"> is now just <article> ---*/
 
 article {
 	width: 900px;
@@ -93,19 +86,16 @@ article {
 
 ul.indlist {
 	list-style-type: none;
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding-top: 15px;
 }
 
 h1.title {
 	padding-bottom: 20px;
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 35px;
 }
 
 h1.titlecont {
 	padding-top: 15px;
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 25px;
 	text-decoration: underline;
 	color: #D3123A;
@@ -113,21 +103,19 @@ h1.titlecont {
 
 h1.titleab {
 	padding-top: 5px;
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 25px;
 	padding-bottom: 15px;
 }
 
 .indlist li {
 	padding-bottom: 25px;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 25px;
 }
 
 #info {
 	font-size: 30px;
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 200;
+	h2;
 	padding-bottom: 20px;
 }
 
@@ -142,196 +130,23 @@ h3#heady {
 
 #infowhy {
 	font-size: 22px;
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 200;
+	h2;
 	padding-bottom: 10px;
 }
 
 .infoy {
 	font-size: 20px;
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 200;
+	h2;
 	padding-bottom: 10px;
 }
 
 #infoab {
 	font-size: 30px;
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 	padding-bottom: 20px;
 }
 
-/*body {
-	margin: -8px;
-	}*/
-
-/*
-.navbar {
-	float: right;
-	height: 30px;
-	position: relative;
-	z-index: 1;
-	padding-top: 0px;
-	margin-top: 0px;
-	margin-right: 180px;
-	top: 0px;
-	left: 10%;
-}
-
-.blank{
-	visibility: hidden;
-	margin-left: 80px;
-}
-
-.logo {
-	height: 60%;
-	margin-left: 10px;
-	margin-top: 8px;
-}
-
-/*will position after font is decided
-
-/*.slogan {
-	font-size: 80px;
-	display: inline-block;
-	z-index: 5;
-	float: right;
-	margin: center;
-	color: white;
-	font-family: Georgia;
-	width: 1050px;
-	text-align: center;
-	text-shadow: 2px 2px black;
-	margin-right: 110px;
-	margin-top: 120px;
-}
-
-.list {
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-	background-color: #333;
-	vertical-align: auto;
-	background: rgba(0, 0, 0, 0.0);
-	text-shadow: 2px 2px black;
-}
-
-.header li {
-	display: inline-block;
-	float: left;
-	padding-left: 0px;
-	vertical-align: auto;
-	font-size: 28px;
-	font-family: Lato, Helvetica, Arial, sans-serif; font-weight: 500;
-	padding-top: 7px;
-}
-
-.home {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 10px 5px;
-	text-decoration: none;
-	vertical-align: auto;
-}
-
-.home:hover {
-	text-decoration: underline;
-}
-
-.about {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 10px 5px;
-	text-decoration: none;
-}
-
-.about:hover {
-	text-decoration: underline;
-}
-
-.donate {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 10px 5px;
-	text-decoration: none;
-}
-
-.donate:hover {
-	text-decoration: underline;
-}
-
-.why {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 10px 5px;
-	text-decoration: none;
-}
-
-.why:hover {
-	text-decoration: underline;
-}
-
-
-.social {
-	float: right;
-	width: 140px;
-	margin-top: 10px;
-	z-index: 1;
-	margin-right: 25px;
-	position: relative;
-}
-
-.twitter {
-	width: 50px;
-	float: left;
-	padding: 0px 10px;
-	z-index: 1;
-}
-
-.facebook {
-	width: 50px;
-	float: left;
-	padding: 0px 10px;
-	z-index: 1;
-}
-
-.header {
-	width: 100%;
-	height: 600px;
-	margin: 0px;
-	background-image: url(https://images.unsplash.com/uploads/1411040661312f50ec8e2/ded9d54e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=9242bb2c1fcb8cb5eaa325b2652b12b2);
-	background-size: cover;
-}
-
-.imghead {
-	width: 100%;
-	margin-right: -40px;
-	margin-top: -800px;
-	z-index: 0;
-}
-
-.center {
-  text-align: center;
-}
-
-.content {
-	width: 900px;
-	height: 600px;
-	text-align: center;
-	margin: auto;
-}
-
-*/
-
 /*--- donate page styling ---*/
-
-.donate { 
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 
 article.donate {
 	height: 800px;
@@ -385,3 +200,98 @@ img#open-hands {
 	margin: 20px auto;
 }
 
+/*-------- footer styling --------*/
+
+footer {
+  min-width: 250px; 
+  background-color: #444;
+  color: #CCC;
+  padding: 20px;
+  font-weight: 400;
+}
+
+.center {
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+footer > .wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+footer section {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer h3 {
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #FFF;
+}
+
+footer p {
+  margin: 3px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #DDD;
+}
+
+footer a:hover {
+  color: #FFF;
+}
+
+#address-container {
+  width: 290px;
+}
+
+#address-container p {
+  font-size: 14px;
+}
+
+#get-involved h3, #get-involved ul {
+  padding-left: 50px;
+}
+
+#connect li {
+  display: inline-block;
+}
+
+#connect img {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  position: relative;
+  bottom: 5px;
+  width: 50px;
+}
+
+#connect img:hover {
+  -webkit-filter: grayscale(0.1);
+  filter: grayscale(0.1);
+}
+
+#sign-up div {
+  background: linear-gradient(#d3113a 50%, #7d0a23);
+  font-weight: bolder;
+  text-transform: uppercase;
+  height: 30px;
+  width: 150px;
+  padding: 10px 0px 0px 0px;
+  border-radius: 5px;
+}  
+
+#newsletter-button {
+  margin: 20px auto 0px;
+}
