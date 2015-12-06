@@ -1,5 +1,6 @@
 /*--- footer styling ---*/
 @import url(footer.css);
+@import url(donate.css);
 
 * {
 	margin: 0px;
