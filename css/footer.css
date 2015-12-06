@@ -1,16 +1,26 @@
-/*--- footer styling ---*/
-
-footer {
-  font-family: Georgia, "Times New Roman", serif;
-  width: 100%;
-  min-width: 250px; 
-  background-color: #444;
-  color: #BBB;
-  padding: 20px;
+* {
+  /*border: 1px solid black;*/
 }
 
-footer > div {
-  max-width: 1000px;
+footer {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  min-width: 250px; 
+  background-color: #444;
+  color: #CCC;
+  padding: 20px;
+  font-weight: 400;
+}
+
+.center {
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+footer > .wrapper {
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -22,13 +32,13 @@ footer section {
 
 footer ul {
   list-style: none;
-  padding-left: 50px;
 }
 
 footer h3 {
-	margin-left: 0;
-  padding-left: 50px;
-  color: #EEE;
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #FFF;
 }
 
 footer p {
@@ -36,63 +46,56 @@ footer p {
 }
 
 footer a {
-  font-weight: bolder;
   text-decoration: none;
-  color: #CCC;
+  color: #DDD;
 }
 
 footer a:hover {
   color: #FFF;
 }
 
-footer img {
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
-  width: 50px;
-  /*---to avoid conflicts from why.css---*/
-  margin: 0px;
-  float: none;
-}
-
-footer img:hover {
-  -webkit-filter: grayscale(0.1);
-  filter: grayscale(0.1);
-}
-
-.hidden {
-  visibility: hidden;
-}
-
 #address-container {
-  float: left;
-  width: 250px;
-  padding-left: 50px;
+  width: 290px;
 }
 
 #address-container p {
   font-size: 14px;
 }
 
-section#connect ul {
-  padding: 0px 0px 0px 38px;
-  margin: 0;
+#get-involved h3, #get-involved ul {
+  padding-left: 50px;
 }
 
-section#connect li {
-  width: 50px;
+#connect li {
   display: inline-block;
 }
 
-section#sign-up div {
-  background: linear-gradient(#d3113a 50%, #bb0f34);
-  -webkit-background: linear-gradient(#d3113a 50%, #bb0f34);
+#connect img {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  position: relative;
+  bottom: 5px;
+  width: 50px;
+  /*---to avoid conflicts from why.css---*/
+  margin: 0px;
+  float: none;
+}
+
+#connect img:hover {
+  -webkit-filter: grayscale(0.1);
+  filter: grayscale(0.1);
+}
+
+#sign-up div {
+  background: linear-gradient(#d3113a 50%, #7d0a23);
   font-weight: bolder;
   text-transform: uppercase;
-  margin: 0px 0px 0px 50px;;
   height: 30px;
   width: 150px;
   padding: 10px 0px 0px 0px;
   border-radius: 5px;
-  position: relative;
-  top: 20px;
 }  
+
+#newsletter-button {
+  margin: 20px auto 0px;
+}
